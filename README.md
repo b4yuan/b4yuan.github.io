@@ -1,4 +1,4 @@
-# Brian Yuan — personal website
+# Brian A. Yuan — personal website
 
 Built on the [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme by Yaoyao Liu.
 

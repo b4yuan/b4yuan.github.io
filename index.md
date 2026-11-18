@@ -13,12 +13,18 @@ I'm interested in how learning works in brains and in machines, from decoding sp
 <style>
   .edu { list-style: none; padding: 0; margin: 0 0 20px; }
   .edu li { display: flex; align-items: center; gap: 14px; margin: 0 0 12px; }
-  .edu .logo { flex: 0 0 56px; height: 44px; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 6px; padding: 4px; box-sizing: border-box; }
+  .edu .logo { flex: 0 0 56px; height: 44px; display: flex; align-items: center; justify-content: center; padding: 4px; box-sizing: border-box; }
   .edu .logo img { max-width: 100%; max-height: 100%; display: block; }
   /* Joint degree: UZH seal with the ETH wordmark tucked over its corner */
   .edu .duo { position: relative; padding: 0; }
   .edu .duo .seal { position: absolute; left: 3px; top: 1px; width: 36px; height: 36px; max-width: none; max-height: none; }
-  .edu .duo .mark { position: absolute; right: 1px; bottom: 2px; width: 34px; height: auto; max-width: none; max-height: none; background: #fff; padding: 2px 3px; border-radius: 3px; box-sizing: border-box; }
+  .edu .duo .mark { position: absolute; right: 1px; bottom: 2px; width: 34px; height: auto; max-width: none; max-height: none; background: var(--logo-bg); padding: 2px 3px; border-radius: 3px; box-sizing: border-box; }
+  /* Black line-art logos turn light in dark mode; the ETH mark's backing matches the page */
+  :root { --logo-bg: #fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --logo-bg: #dbdace; } /* inverts to the dark page colour #20212b */
+    .edu img.mono { filter: invert(1) brightness(0.88); }
+  }
   .edu .deg { display: block; font-size: 0.9em; opacity: 0.8; }
 </style>
 
@@ -29,13 +35,13 @@ I'm interested in how learning works in brains and in machines, from decoding sp
   </li>
   <li>
     <span class="logo duo">
-      <img class="seal" src="./assets/img/logos/uzh.png" alt="University of Zürich seal">
-      <img class="mark" src="./assets/img/logos/eth.png" alt="ETH Zürich logo">
+      <img class="seal mono" src="./assets/img/logos/uzh.png" alt="University of Zürich seal">
+      <img class="mark mono" src="./assets/img/logos/eth.png" alt="ETH Zürich logo">
     </span>
     <span><strong>ETH Zürich &amp; University of Zürich</strong><span class="deg">Joint M.Sc. in Neural Systems and Computation</span></span>
   </li>
   <li>
-    <span class="logo"><img src="./assets/img/logos/purdue.png" alt="Purdue University seal"></span>
+    <span class="logo"><img class="mono" src="./assets/img/logos/purdue.png" alt="Purdue University seal"></span>
     <span><strong>Purdue University</strong><span class="deg">B.Sc. in Computer Engineering</span></span>
   </li>
 </ul>
@@ -53,6 +59,7 @@ I'm interested in how learning works in brains and in machines, from decoding sp
 </style>
 
 <ul class="cv-list">
+  {% comment %} Hidden for now: undergraduate TA courses. Remove the comment tags to show them again.
   <li>
     <div class="head"><strong>ECE 20875: Python for Data Science</strong><span class="date">Jan. 2023 – Dec. 2023</span></div>
     <span class="sub">Undergraduate Teaching Assistant, Purdue University</span>
@@ -61,11 +68,7 @@ I'm interested in how learning works in brains and in machines, from decoding sp
     <div class="head"><strong>ECE 264: Advanced C Programming</strong><span class="date">Aug. 2022 – Dec. 2023</span></div>
     <span class="sub">Undergraduate Teaching Assistant, Purdue University</span>
   </li>
-</ul>
-
-## Awards
-
-<ul class="cv-list">
+  {% endcomment %}
   <li>
     <div class="head"><strong>Dave &amp; Marsha Meyer Undergraduate Teaching Award</strong><span class="date">2023</span></div>
     <span class="sub">Purdue University</span>
