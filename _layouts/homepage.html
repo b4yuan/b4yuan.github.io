@@ -71,7 +71,7 @@
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" title="Google Scholar" aria-label="Google Scholar">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
@@ -83,8 +83,26 @@
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" title="GitHub" aria-label="GitHub">
           <i class="fab fa-github"></i>
+        </a>
+        {% endif %}
+
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}" title="ORCID" aria-label="ORCID">
+          <i class="ai ai-orcid" style="font-size:1.2rem"></i>
+        </a>
+        {% endif %}
+
+        {% if site.dblp %}
+        <a style="margin: 0 5px 0 0" href="{{ site.dblp }}" title="DBLP" aria-label="DBLP">
+          <i class="ai ai-dblp" style="font-size:1.2rem"></i>
+        </a>
+        {% endif %}
+
+        {% if site.openreview %}
+        <a style="margin: 0 5px 0 0" href="{{ site.openreview }}" title="OpenReview" aria-label="OpenReview">
+          <i class="fas fa-file-pen"></i>
         </a>
         {% endif %}
 
