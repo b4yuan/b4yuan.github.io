@@ -1,0 +1,28 @@
+# Publications shown on the homepage, newest first.
+# Source: https://scholar.google.com/citations?user=lRkcBX4AAAAJ
+#
+# Fields: title, authors, conference_short (badge), conference, pdf, code,
+#         page, bibtex, image (teaser), notes (red highlight), others (raw HTML)
+
+main:
+
+  - title: "Local Proxies for Memory-Efficient Training"
+    authors: Wu S. Zihan*, <strong>Brian A. Yuan*</strong>, Guillaume Bellec (*Equal contribution)
+    conference_short: arXiv
+    conference: arXiv preprint arXiv:2610.23145, 2026.
+    pdf: https://arxiv.org/abs/2610.23145
+
+  - title: "Finding 709 Defects in 258 Projects: An Experience Report on Applying CodeQL to Open-Source Embedded Software"
+    authors: Mingjie Shen, Akul Abhilash Pillai, <strong>Brian A. Yuan</strong>, James C. Davis, Aravind Machiry
+    conference_short: ISSTA
+    conference: Proceedings of the ACM on Software Engineering <strong>(ISSTA)</strong>, 2025.
+    pdf: https://doi.org/10.1145/3728923
+    page: https://arxiv.org/abs/2310.00205
+    page_label: Extended Report
+
+  - title: "Improving Speech Decoding from ECoG with Self-Supervised Pretraining"
+    authors: <strong>Brian A. Yuan</strong>, Joseph G. Makin
+    conference_short: arXiv
+    conference: arXiv preprint arXiv:2405.18639, 2024.
+    pdf: https://arxiv.org/abs/2405.18639
+    code: https://github.com/b4yuan/ecog2vec

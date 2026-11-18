@@ -1,0 +1,56 @@
+# Basic Information 
+title: Brian Yuan
+position: Ph.D. Candidate
+affiliation: TU Wien
+affiliation_link: https://www.tuwien.at/en/
+email: brian.yuan (at) tuwien.ac.at
+# Office address; each list item is shown on its own line under the email.
+address:
+  - Erzherzog-Johann-Platz 1
+  - Room FB0203 (second floor)
+  - 1040 Wien
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: Brian Yuan, TU Wien, AI, neuroscience
+description: Brian Yuan is a Ph.D. candidate at TU Wien working on AI in neuroscience.
+# canonical: https://your-domain.example/
+
+# Links 
+# Uncomment and fill in the ones you want shown.
+google_scholar: https://scholar.google.com/citations?user=lRkcBX4AAAAJ
+# cv_link: assets/files/curriculum_vitae.pdf
+github_link: https://github.com/b4yuan
+# linkedin: https://www.linkedin.com/in/YOUR_ID
+# twitter: https://twitter.com/YOUR_ID
+
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+# Add a photo at assets/img/avatar.png and uncomment to show it.
+# avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: true
+
+# Auto Dark Mode
+# You may use the option to disable the automatic dark theme
+auto_dark_mode: true
+
+# Font
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # or "Sans Serif"
+
+# Google Analytics ID
+# google_analytics: YOUR_ID
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - minimal-light.gemspec
+  - vendor/
