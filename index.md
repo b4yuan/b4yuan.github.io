@@ -70,6 +70,10 @@ I'm interested in how learning works in brains and in machines, from decoding sp
   </li>
   {% endcomment %}
   <li>
+    <div class="head"><strong>Supervision: <a href="https://max.ml/">Maximilian Kalcher</a></strong><span class="date">Ongoing</span></div>
+    <span class="sub">Mentee (Life Coaching)</span>
+  </li>
+  <li>
     <div class="head"><strong>Dave &amp; Marsha Meyer Undergraduate Teaching Award</strong><span class="date">2023</span></div>
     <span class="sub">Purdue University</span>
   </li>
