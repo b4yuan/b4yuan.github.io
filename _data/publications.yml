@@ -7,7 +7,7 @@
 main:
 
   - title: "Local Proxies for Memory-Efficient Training"
-    authors: Wu S. Zihan*, <strong>Brian A. Yuan*</strong>, Guillaume Bellec (*Equal contribution)
+    authors: Wu S. Zihan*, <strong>Brian A. Yuan*</strong>, Guillaume Bellec (*equal contribution)
     conference_short: arXiv
     conference: arXiv preprint arXiv:2610.23145, 2026.
     pdf: https://arxiv.org/abs/2610.23145

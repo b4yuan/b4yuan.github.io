@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. candidate at [TU Wien](https://www.tuwien.at/en/), supervised by [Guillaume Bellec](https://guillaume.bellec.eu/). Before that, I did my master's at the [Institute of Neuroinformatics](https://www.ini.uzh.ch/en.html) ([ETH Zurich](https://ethz.ch/en.html) and [University of Zurich](https://www.uzh.ch/en.html)).
+I am a Ph.D. candidate at [TU Wien](https://informatics.tuwien.ac.at/), supervised by [Guillaume Bellec](https://guillaume.bellec.eu/). Before that, I did my master's at the [Institute of Neuroinformatics](https://www.ini.uzh.ch/en.html) ([ETH Zurich](https://ee.ethz.ch/) and [University of Zurich](https://www.mnf.uzh.ch/en.html)).
 
 I'm interested in how learning works in brains and in machines, from decoding speech from neural recordings to training networks with biologically plausible learning rules.
 
