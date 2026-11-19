@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. candidate at [TU Wien](https://www.tuwien.at/en/), supervised by [Guillaume Bellec](https://guillaume.bellec.eu/).
+I am a Ph.D. candidate at [TU Wien](https://www.tuwien.at/en/), supervised by [Guillaume Bellec](https://guillaume.bellec.eu/). Before that, I did my master's at the [Institute of Neuroinformatics](https://www.ini.uzh.ch/en.html) ([ETH Zurich](https://ethz.ch/en.html) and [University of Zurich](https://www.uzh.ch/en.html)).
 
 I'm interested in how learning works in brains and in machines, from decoding speech from neural recordings to training networks with biologically plausible learning rules.
 
@@ -35,10 +35,10 @@ I'm interested in how learning works in brains and in machines, from decoding sp
   </li>
   <li>
     <span class="logo duo">
-      <img class="seal mono" src="./assets/img/logos/uzh.png" alt="University of Zürich seal">
-      <img class="mark mono" src="./assets/img/logos/eth.png" alt="ETH Zürich logo">
+      <img class="seal mono" src="./assets/img/logos/uzh.png" alt="University of Zurich seal">
+      <img class="mark mono" src="./assets/img/logos/eth.png" alt="ETH Zurich logo">
     </span>
-    <span><strong>ETH Zürich &amp; University of Zürich</strong><span class="deg">Joint M.Sc. in Neural Systems and Computation</span></span>
+    <span><strong>ETH Zurich &amp; University of Zurich</strong><span class="deg">Joint M.Sc. in Neural Systems and Computation</span></span>
   </li>
   <li>
     <span class="logo"><img class="mono" src="./assets/img/logos/purdue.png" alt="Purdue University seal"></span>
